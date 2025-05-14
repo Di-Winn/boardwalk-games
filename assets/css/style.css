@@ -1,4 +1,3 @@
-
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
@@ -23,7 +22,6 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    
 }
 
 h1,
@@ -60,7 +58,7 @@ h2 {
     font-family: var(--secondary-font);
 }
 
-/* services */
+/* Services */
 
 #services .card-footer {
     font-weight: bold;
@@ -71,6 +69,14 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 
 /* grid visualisation CSS for testing */
 
@@ -84,7 +90,7 @@ h2 {
     background-color: lightgray;
 } */
 
-/* Media Queries */
+/* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -94,7 +100,7 @@ h2 {
     }
 }
 
-/* large devices (laptops, 992px and up) */
+/* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
@@ -102,17 +108,17 @@ h2 {
     }
 }
 
-/* xl devices (desktops, 1200px and up) */
+/* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    /* Make all service cards the same height for consistency */
+    /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
     }
 }
 
-/* extra extra large devices (widescreen, 1400px and up) */
+/* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-    /* Make all service cards the same height for consistency */
+    /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
     }
